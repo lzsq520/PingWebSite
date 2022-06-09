@@ -23,4 +23,4 @@ jobs:
     - name: Ping scf
       run: Web.Ping --host https://service-laqz8pd5-1312133742.bj.apigw.tencentcs.com/release/SCFOnedriveIndex/
     - name: Ping bookmark
-      run: Web.Ping --host https://lzs.azurewebsites.net/
+      run: Web.Ping --host https://lzsq.azurewebsites.net/
