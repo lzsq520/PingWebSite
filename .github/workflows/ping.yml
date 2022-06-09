@@ -21,4 +21,4 @@ jobs:
     - name: Ping www.zkea.net
       run: Web.Ping --host http://www.zkea.net
     - name: Ping demo.zkea.net
-      run: Web.Ping --host http://demo.zkea.net
+      run: Web.Ping --host https://service-laqz8pd5-1312133742.bj.apigw.tencentcs.com/release/SCFOnedriveIndex/
