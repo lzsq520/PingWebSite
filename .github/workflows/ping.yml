@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule: 
-    - cron: '*/5 * * * *' #every 10 minutes
+    - cron: '*/6 * * * *' #every 10 minutes
 jobs:
   ping:
 
@@ -20,5 +20,7 @@ jobs:
       run: dotnet tool install Web.Ping -g
     - name: Ping www.zkea.net
       run: Web.Ping --host http://www.zkea.net
-    - name: Ping demo.zkea.net
+    - name: Ping scf
       run: Web.Ping --host https://service-laqz8pd5-1312133742.bj.apigw.tencentcs.com/release/SCFOnedriveIndex/
+    - name: Ping bookmark
+      run: Web.Ping --host https://lzs.azurewebsites.net/
